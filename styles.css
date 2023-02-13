@@ -1,3 +1,110 @@
 * {
     font-family: 'Libre Caslon Text', serif;
 }
+
+body {
+    margin: 0px;
+    background-color: rgb(30, 36, 49);
+    color: white;
+}
+
+.container {
+    background-color: rgb(37, 37, 50);
+    padding: 0.1rem;
+}
+
+.container p {
+    text-align: center;
+}
+
+.container a {
+    color: white;
+}
+
+/* Links */
+
+.link {
+    font-weight: bold;
+    text-decoration: none;
+    background-color: transparent;
+    white-space: nowrap;
+
+    transition-duration: 0.3s;
+
+    border: none;
+    border-radius: 5px;
+}
+
+.main-link, .project-link {
+    padding: 0.4em;
+}
+
+.main-link {
+    font-size: 1.1rem;
+    color: white;
+}
+
+.main-link:hover {
+    background-color: rgb(40, 40, 122);
+    color: white;
+}
+
+.icon-link img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 36px;
+    height: 36px;
+
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(345deg) brightness(107%) contrast(101%);
+}
+
+.icon-link div {
+    border-radius: 5px;
+    padding: 5px;
+    transition-duration: 0.3s;
+}
+
+.icon-link:hover {
+    background-color: rgb(40, 40, 122);
+}
+
+/* Welcome section */
+.welcome-section {
+    background: url('resources/background.png');
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 100vh;
+
+    text-align: center;
+    color: azure;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.welcome-section h1 {
+    margin-bottom: 0rem;
+    text-align: center;
+}
+
+.welcome-section h2 {
+    margin-top: 0rem;
+}
+
+.welcome-section h3 {
+    margin-right: 0.4rem;
+    margin-left: 0.4rem;
+}
+
+.welcome-section p {
+    size: 1000px;
+}
+
+.main-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
