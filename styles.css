@@ -91,7 +91,7 @@ body {
     height: 100vh;
 
     text-align: center;
-    color: #616161;
+    color: white;
     
     display: flex;
     flex-direction: column;
@@ -124,7 +124,7 @@ body {
 }
 
 .main-links a {
-    color: #616161;
+    color: white;
 }
 
 /* projects */
