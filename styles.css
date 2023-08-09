@@ -115,8 +115,8 @@ body {
 
 @media (orientation: landscape) {
     .welcome-section p {
-        margin-right: 10rem;
-        margin-left: 10rem;
+        margin-right: 20rem;
+        margin-left: 20rem;
     }
 }
 
