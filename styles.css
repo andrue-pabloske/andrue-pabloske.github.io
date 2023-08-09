@@ -88,7 +88,7 @@ body {
     background: url('resources/background.png');
     background-size: cover;
     background-blend-mode: multiply;
-    height: 100vh;
+    height: 75vh;
 
     text-align: center;
     color: white;
@@ -112,10 +112,20 @@ body {
     margin-left: 0.4rem;
 }
 
-.welcome-section p {
-    margin-right: 10rem;
-    margin-left: 10rem;
+@media (orientation: landscape) {
+    .welcome-section p {
+        margin-right: 10rem;
+        margin-left: 10rem;
+    }
 }
+
+@media (orientation: portrait) {
+    .welcome-section p {
+        margin-right: 5rem;
+        margin-left: 5rem;
+    }
+}
+  
 
 .main-links {
     display: flex;
